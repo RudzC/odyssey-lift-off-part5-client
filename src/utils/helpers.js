@@ -13,7 +13,7 @@ export const humanReadableTimeFromSeconds = (seconds) => {
   if (hours > 0) {
     timeStr += `${hours}h `;
   }
-  timeStr += `${minutestoDisplay}s`;
+  timeStr += `${minutestoDisplay}m`;
 
   return timeStr;
 };

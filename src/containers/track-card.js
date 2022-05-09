@@ -51,7 +51,7 @@ const TrackCard = ({ track }) => {
             <AuthorAndTrack>
               <AuthorName>{author.name}</AuthorName>
               <TrackLength>
-                {modulesCount} modules - {humanReadableTimeFromSeconds(durationInSeconds)}
+                {modulesCount} modules - {durationInSeconds}s
               </TrackLength>
             </AuthorAndTrack>
           </CardFooter>
